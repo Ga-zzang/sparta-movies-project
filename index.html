@@ -1,13 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>GAZZANG PEDIA</title>
+    <!-- css연결 -->
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
-    <script src="movie.js"></script>
+<header>
+    <nav class="navbar">
+        <div class="nav_logo">
+            <img src="img/logo.png" alt="로고" width="350px" height="50px">
+        </div>
+        <ul class="nav_menu">
+            <li><a href="">홈</a></li>
+            <li><a href="">카테고리</a></li>
+            <li><a href="">영화</a></li>
+            <li><a href="">시리즈</a></li>
+            <li><a href="">한줄 코멘트</a></li>
+        </ul>
+
+        <div class="nav_search">
+            <input class="input_type" type="text" id="search-input" placeholder="영화 제목을 검색해 보세요">
+            <button class="button_type" button type="submit" id="search-btn">검색</button>
+        </div>
+    </nav>
+</header>
+    <section class="movie-list">
+        <div class="movie-card">
+            <img src="https://image.tmdb.org/t/p/w500/9cqNxx0GxF0bflZmeSMuL5tnGzr.jpg" alt="The Shawshank Redemption">
+        </div>
+    </section>
 </body>
+
+
+
+
+<!-- js연결 -->
+<script src="movie.js"></script>
+</body>
+
 </html>
